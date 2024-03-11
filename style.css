@@ -71,7 +71,7 @@ ul li::before {
   height: 28px;
   width: 28px;
   border-radius: 50%;
-  background-image: url(images/empty.png);
+  background-image: url(empty.png);
   background-size: cover;
   background-position: center;
   top: 10px;
@@ -82,7 +82,7 @@ ul li.task {
   text-decoration: line-through;
 }
 ul li.task::before {
-  background-image: url(images/checked.png);
+  background-image: url(checked.png);
 }
 ul li span {
   position: absolute;
